@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(27, 27, 50);
+  color: white;
+  font-size: 16px;
+  font-family: Tahoma;
+  width: 65%;
+  margin: 25px auto;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+h1,
+p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid rgb(59, 59, 79);
+  padding-bottom: 28px;
+  padding-top: 28px;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+input,
+label,
+select,
+textarea {
+  width: 100%;
+  min-height: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  background-color: rgb(10, 10, 35);
+  border: 1px solid rgb(10, 10, 35);
+  color: white;
+}
+.radio {
+  width: unset;
+  vertical-align: middle;
+  margin: 0;
+}
+article {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.personal {
+  margin-top: 0px;
+}
+.business {
+  margin-bottom: 10px;
+}
+input[type="file"] {
+  padding: 3px 2px;
+}
+.checkbox {
+  width: unset;
+  display: inline;
+  vertical-align: middle;
+}
+#haha {
+  padding-left: 6px;
+}
+a {
+  color: white;
+}
+textarea {
+  margin-bottom: 25px;
+}
+input[type="submit"] {
+  width: 60%;
+  font-size: 1.1rem;
+  margin: 1em auto;
+  display: block;
+  height: 2em;
+  min-width: 300px;
+  background-color: rgb(59, 59, 79);
+  color: white;
+  border-color: whitesmoke;
+  cursor: pointer;
+}
